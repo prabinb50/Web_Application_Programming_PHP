@@ -5,7 +5,7 @@ include 'utils.php';
 
 $db = new Database();
 
-// ----Handles note creation----
+// ---- Handles note creation ----
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $body = $_POST['body'];
 
