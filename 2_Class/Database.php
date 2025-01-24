@@ -2,6 +2,7 @@
 
 class Database {
     private $connection;
+    private $statement;
 
     public function __construct(){
         $connectionString = "mysql:host=localhost;
@@ -16,6 +17,7 @@ class Database {
         $statement = $this->connection->prepare($sql);
 
         $statement->execute($params);
-        return $statement;
+        return $this;
     }
 }
+

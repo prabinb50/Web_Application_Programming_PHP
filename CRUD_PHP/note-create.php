@@ -1,7 +1,7 @@
 <?php
 
 include 'Database.php';
-include 'utils.php';
+include 'util.php';
 
 $db = new Database();
 
@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   }
 
   if (empty($errors)) {
-    $db->query("INSERT INTO express (body) VALUES (:body)", [':body' => $body]);
+    $db->query("INSERT INTO note (body) VALUES (:body)", [':body' => $body]);
 
     header('Location: notes.php');
   }

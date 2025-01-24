@@ -1,7 +1,7 @@
 <?php
-  include 'partial/header.view.php';
-  include 'partial/nav.view.php';
-  include 'partial/banner.view.php';
+  include 'partials/header.view.php';
+  include 'partials/nav.view.php';
+  include 'partials/banner.view.php';
 ?>
 
 <main>
@@ -48,5 +48,5 @@
 </main>
 
 <?php
-  include 'partial/footer.view.php';
+  include 'partials/footer.view.php';
 ?>

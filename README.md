@@ -124,7 +124,7 @@ Implement the Create functionality in PHP to insert data into the MySQL database
 
    ![Create Operation](images/image8.png)  
    ![Create Operation](images/image9.png)  
-   ![Create Operation](images/image10.png) 
+   ![Create Operation](images/image10.jpg) 
    *Fig: Example of Create operation.*
 
 ---
